@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+.make_me_semi_transparent {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=50);
+opacity: 0.5;
+}
+
+body {
+  background-size: cover;
+  font-family: Roboto Slab;
+  color: white;
+}
+.box {
+  background-color: blue;
+  width: 18%;
+  margin-top: 7%;
+  margin-right: 15%;
+  border-style: solid;
+  border-color: #ffbb33;
+  border-radius: 10px;
+  padding: 20px;
+  height: auto;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+filter: alpha(opacity=80);
+opacity: 0.8;
+}
+
+ul {
+  color: blue;
+  background-color: #ffbb33;
+  position: fixed;
+  list-style-type: none;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  border-style: solid;
+  border-color: blue;
+  border-radius: 7px;
+}
+li {
+  display: inline;
+  margin-left: 20px;
+}
+footer {
+  margin-bottom: 100px;
+}
+.buttonSocial {
+  margin-top:5px;
+margin-left:10%;
+background:#ffbb33;
+color:white;
+border-radius:50%;
+  height: 135%;
+  width: 75%;
+  border-color: DarkBlue;
+}
+h2 {
+  color: DarkBlue;
+  margin-left: 10px;
+  font-size: 17px;
+}
+h3 {
+  color: white;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+h4 {
+  color: white;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.fa {
+  color: DarkBlue;
+}
+.fa:hover {
+  color: #4285F4;
+}
+.align-left {
+  margin-right: 150px;
+}

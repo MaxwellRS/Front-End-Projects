@@ -1,0 +1,47 @@
+body {
+  background-color: #004d40;
+}
+h1 {
+  color: white;
+  font-family: Trebuchet MS;
+  font-size: 50px;
+}
+p {
+  color: white;
+  font-family: Trebuchet MS;
+}
+span {
+  color: #004d40;
+  font-family: Trebuchet MS;
+  font-style: italic;
+}
+img {
+  padding: 2%;
+}
+button {
+  font-family: Trebuchet MS;
+}
+.quotebox {
+  background-color: white;
+  width: 32%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: #00C851;
+  padding: 20px;
+  height: auto;
+}
+.quote {
+  font-size: 30px;
+}
+.author {
+  font-size: 15px;
+}
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.personal-space {
+  margin-left: 20px;
+  font-style: italic;
+}

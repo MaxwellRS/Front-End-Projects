@@ -1,0 +1,88 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1464667831196-208f4be2592e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2f5fc30c6d0dd72b4da37aa61eb06ef3&auto=format&fit=crop&w=1950&q=80");
+  color:white;
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tic {
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  font-size: 110px;
+  line-height: 85px;
+  font-family: Codystar;
+  vertical-align:middle;
+  text-align: center;
+}
+#message {
+  color: #00C851;
+}
+.messageBox {
+  margin-top: 10px;
+  background-color: #616161;
+  max-width: 170px;
+  border-radius: 5px;
+  font-family: 'Press Start 2P';
+  font-size: 13px;
+}
+#turnX {
+  margin-top: 15px;
+  width: 70px;
+  height: 35px;
+  font-family: 'Press Start 2P';
+}
+#turnO {
+  margin-top: 15px;
+  width: 70px;
+  height: 35px;
+  font-family: 'Press Start 2P';
+}
+.letterSpaced {
+  letter-spacing: 10px;
+}
+.cell {
+    width: 120px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.footer {
+  font-family: 'Press Start 2P';
+  font-size: 16px;
+  margin-top: 50px;
+}
+.containerSpacer {
+  margin-top: 15px;
+}
+.btn-O {
+  background-color: red;
+}
+.btn-X {
+  background-color: blue;
+}
+.transparent {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+filter: alpha(opacity=75);
+opacity: 0.75;
+}
+.btn:hover{
+  background-color: #616161;
+}
+.footer {
+  margin-top: 100px;
+}
+.fa:hover{
+  color: #616161;
+}
+.fa {
+  color: #00C851;
+}
+.fa-stack {
+  margin-left: 35px;
+}

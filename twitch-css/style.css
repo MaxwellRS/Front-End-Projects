@@ -1,0 +1,51 @@
+body{
+  background-image: url('https://orig00.deviantart.net/2010/f/2015/144/c/2/c21d91dcb11ee16729ec892d03f7b855-d8un0f2.jpg');
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  background-position: middle;
+}
+h1{
+  text-align: center;
+  color: #d1c4e9;
+  font-size: 60px;
+  }
+h2{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+}
+.twitch-game{
+  color: green;
+  font-size: 20px;
+}
+.offline{
+  color: red;
+  font-size: 20px;
+}
+a{
+  font-size: 30px;
+  color: #9933CC;
+}
+a:hover{
+  color: #e040fb;
+}
+.board{
+  align: center;
+  max-width: 1000px;
+  padding: 10px;
+  border-radius: 8px;
+  margin: auto;
+  background-color: #d1c4e9;
+}
+.transparent {
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+filter: alpha(opacity=70);
+opacity: 0.7;
+}
+.btn2 {
+  border: none;
+  background: none;
+    margin-top:5px;
+    margin-left:10%;
+}
